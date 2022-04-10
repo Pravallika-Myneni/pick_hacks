@@ -1,4 +1,4 @@
-# Bear_Assays <img src="https://github.com/Namrata-Agrawal/Viraam/blob/master/styles/viraamlogo.png" alt = "change here" width=150 align='right'>
+# Bear_Assays 
 A tool to help you assays your mental and physical health and to understand the correlation
 
 ## Try Bear_Assays on your local system
