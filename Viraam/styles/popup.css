@@ -1,0 +1,70 @@
+body {
+      background-color: rgb(253, 185, 185);
+      font-family: 'Nunito';
+      font-size: 16px;
+      text-align: center;
+      width: 300px;
+      height: 400px;
+}
+
+ul {
+	margin: 5 0;
+	padding: 0;
+}
+
+h1{
+  color: aliceblue;
+}
+ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: 1px solid white;
+  border-radius: 20%;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button.disabled {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+	pointer-events: none;
+   	cursor: default;
+}
+
+.timer_part {
+    font-size: 1.5em;
+    width: 42px;
+    
+}
+
+#small {
+    margin: 0;
+    font-size: .75em;
+}
+
+#bottom {
+  position: absolute;
+  margin: auto;
+  float: center;
+  bottom: 10px;
+  left:25%;
+}
+
+h4 {
+  margin: 0;
+}
+
+.squats-gifs{
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}

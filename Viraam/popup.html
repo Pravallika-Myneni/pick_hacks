@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Popup</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Nunito'
+          rel='stylesheet'>
+    <link rel="stylesheet" href="styles/popup.css">
+</head>
+<body>
+<h1 font-style="bold">Viraam !</h1>
+
+<p id="quip"></p>
+<div id="timer" >
+    <p id="small">hours : minutes : seconds</p>
+    <div  >
+        <input id="hours" type="number" class="timer_part" maxlength="2"
+               min="00" max="23" value="0">
+        <span>:</span>
+        <input id="minutes" type="number" class="timer_part" maxlength="2"
+               min="00" max="59" value="0">
+        <span>:</span>
+        <input id="seconds" type="number" class="timer_part" maxlength="2"
+               min="00" max="59" value="0">
+    </div>
+    <ul>
+        <li><a href="#" class="button" id="timer_start">Start</a></li>
+        <li><a href="#" class="button disabled" id="timer_stop">Cancel</a></li>
+    </ul>
+    <p>How many squats &emsp;<input id="numsquats" style="width: 50px;"
+                               type="number" min="0" value="2"></p>
+</div>
+
+
+<div style="width:100%;height:70%;padding-bottom:10%;position: relative;">
+    <iframe src="https://giphy.com/embed/AWfeFosX36RTW" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+</div>
+<!--<p><a href="https://giphy.com/gifs/dog-exercise-squats-AWfeFosX36RTW">via GIPHY</a></p> -->
+
+<script src="js/popup.js"></script>
+</body>
+</html>
