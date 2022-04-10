@@ -1,8 +1,14 @@
-# Viraam <img src="https://github.com/Namrata-Agrawal/Viraam/blob/master/styles/viraamlogo.png" alt = "change here" width=150 align='right'>
-A Chrome browser extension to enable Viraam [Breaks/Pause] from Digital Space
+# Bear_Assays <img src="https://github.com/Namrata-Agrawal/Viraam/blob/master/styles/viraamlogo.png" alt = "change here" width=150 align='right'>
+A tool to help you assays your mental and physical health and to understand the correlation
 
-## 🧩 Try Viraam on your chrome browser
+## Try Bear_Assays on your local system
 - Clone our repository
+- Download all the dependecies (streamlit, NLTK, text2Emotion, ...)
+- To run streamlit app, use the follow command:
+   ` streamlit run streamlit_app.py ` 
+
+## 🧩 To use Viraam on your chrome browser
+- Clone our repository only the folder of viraam
 - Open [chrome://extensions/](chrome://extensions/) in your browser
 - Toggle to switch to developer mode
 - Click on "Load unpacked extension"
@@ -11,54 +17,49 @@ A Chrome browser extension to enable Viraam [Breaks/Pause] from Digital Space
 
 ## 💡Inspiration
 
-No matter how hard-working you are or how stressful your job is, the human body is not equipped for countless hours of being seated in one position in front of the screen.
+At the end, every human of the day are left with themselves. its not about being alone but feeling lonely. 
+we all would appreciate the help of a good listener. sometimes that is all we need. we can go to a therapist. Yes! we can. we can write it down in a dairy. yes we can but not all times we have time and facility for that.
+Often we can see it for ourselves how the exercise we do and diet we take affects our mental health.
+Bear_assays aids you  to analyze your mental and physical health. also to help you understand how inter-related they are and cheer you to take good care of them. 
 
-It’s no secret that sitting down is slowly killing you. In fact, recently researchers have found a link between sitting for too many hours every day and the risk of early death.
+##  👩🏻‍💻 What it Bear_assays?
+- Asks the user to upload voice notes or write down what's running inside their head
+- Interprets mood of the user
+- Asks users to log the list of exercises and amount of sleep or their information from their fitness app(if any)
+- Uses real world data collected from a smartwatch to help users understand the impact of physical health on mental health
+- Calculates the number of calories burnt and displays a number of how much the workout contributed to their mood that day 
+- Provides user with a Histogram of their sleep, mood, burnt calories
+- A mini part of our project is a chrome extension called viraam which any user can download to take a healthy pause from your desk. Viraam makes you to step away from the computer and perform squats/stretching. Viraam helps you in making your workday routine more healthy.
 
-The good news is that taking regular quality breaks can significantly reduce this risk. Furthermore, brief mental breaks will actually help you stay focused on your work and raise your productivity levels.
+##  🔨How we built
+- we used Assembly AI API to convert audio to text 
+- text2emotion python library to extract mood  from text
+- seaborn and matplotlib to display heat-graph(shows relation between physical and mental activity)
+- Streamlit to integrate everything and make the website
 
+For Viraam
+- We have implemented pose estimation provided by teachable machine 
+- Developed chrome extension using HTML, CSS and Javascript (tensorflow.js)
 
-## 👩🏻‍💻 What is Viraam?
-Viraam(વિરામ) is a chrome extension which promotes taking a healthy pause from your desk. Viraam makes you to step away from the computer and perform squats/stretching. Viraam helps you in making your workday routine more healthy.
+## Challenges we ran into
+- Brainstorming was a huge challenge
+- Almost everything we implemented is new to both of us, so we had rough time learning and applying new libraries
+- Emotion recognition is the hardest part
 
-### Functionalities
-- Automatic Reminder to switch Viraam which is customised by the user
-- Live video captures 
-- Squat/stretch counter
+##🥇 Accomplishments that we're proud of
+We are proud of the fact that we have built our first project together and the fact that we learned pretty much everything we implemented in past days only
 
+## 📖What we learned
+- Developing applications using steamlit
+- Planning and Time management
 
-### Add-on pitch
-Please find the video that pitches Viraam [here](https://youtu.be/C2UfioU1rlA)
-
-## 🔨 How we built it
-
-| Software/ Language / framework | 
-|--------------------------------|
-| Chrome Extension               | 
-| Tensorflow                     |
-| Computer Vision                |
-| Visual Studio Code             | 
-| HTML                           | 
-| CSS                            |
-| JavaScript                     | 
-| Teachable Machine              | 
-
-
-## 🥇Accomplishments we are proud of
- We are proud of the fact that we have built a effiicient chrome extension in less than 24 hours that could have a real-world impact.
-
-
-## 📖What did we learn?
-
-- We learned how we can apply machine learning in imporving our work environment
-- Planning and Time management promoting collaboration and contribution on GitHub 
-- Open Source Posture estimation using Teachable Machine by Google
+## 🚀We will develop Bear_Assays further by:
+-  Deploy the streamlit webapp so that everyone can access it
+- Recommending songs after interpreting mood
+- Including an option to log food intake
+- To provide an option to interact with professional mental and physical health guiders 
+- Create weekly and daily dash boards
 
 
-## 🚀What's next for Viraam?
-- Extending to more than squats and strectching
-- A dashboard for user
-- Daily and weekly reports
-- Develop a visual guide to office ergonomics
-- Allow user to set break time reminders
+
 
